@@ -1,5 +1,6 @@
 <?php
 //version 0.21
+namespace Indigo7\Db;
 abstract class Mysqliorm {
     protected static
         $conn;
