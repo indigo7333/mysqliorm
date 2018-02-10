@@ -12,9 +12,9 @@
         }
     ],
     "require": {
-        "php": ">=5.3.0"
+        "php": ">=5.6.0"
     },
     "autoload": {
-        "files": [ "mysqliorm/mysqliorm.php" ]
+        "files": [ "mysqliorm/mysqliorm.php", "mysqliorm/autoload_models.php" ]
     }
 }
