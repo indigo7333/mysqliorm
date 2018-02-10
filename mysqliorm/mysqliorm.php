@@ -19,7 +19,7 @@ abstract class Mysqliorm {
           }
 
     }
-    public static function setDB (mysqli $conn)
+    public static function setDB (\mysqli $conn)
     {
         self::$conn = $conn;      
     }
