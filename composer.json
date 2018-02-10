@@ -1,1 +1,20 @@
-{}
+{
+    "name": "indigo7333/mysqliorm",
+    "description": "MysqlORM provides and abstract orm class for Mysqli",
+    "homepage": "http://greenit.us",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Emil Palimski",
+            "email": "indigo7333@gmail.com",
+            "homepage": "https://greenit.us",
+            "role": "Original Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "files": [ "mysqliorm/mysqliorm.php" ]
+    }
+}
